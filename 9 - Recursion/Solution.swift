@@ -1,3 +1,4 @@
+
 let n = Int(readLine()!)!
 
 func factorial(n: Int) -> Int {
@@ -5,7 +6,7 @@ func factorial(n: Int) -> Int {
         return 1
     }
     
-    return factorial(n - 1) * n;
+    return factorial(n: n - 1) * n;
 }
 
-print(factorial(n))
+print(factorial(n: n))
